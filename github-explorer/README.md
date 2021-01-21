@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# About the project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+github-explorer allows users to find developers on GitHub and check their stats such as number of starts, repositories, and other information. This project was created using React and Typescript
 
 ## Available Scripts
 
