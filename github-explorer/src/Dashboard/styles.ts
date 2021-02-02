@@ -99,5 +99,11 @@ export const Repositories = styled.div`
                 color: #cbcbd6;
             }
     }
-
 `;
+
+export const Error = styled.span`
+    display: block;
+    color: #c53030;
+    margin-top: 12px;
+    font-family: Roboto, sans-serif;
+`
