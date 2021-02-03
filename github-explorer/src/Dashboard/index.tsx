@@ -43,7 +43,7 @@ const Dashboard: React.FC = () => {
     <>
         <img src={logoImg} alt="GitExplorer logo"/>
         <Title>Explore repositórios no Github</Title>
-        <Form onSubmit={handleAddRepository}>
+        <Form hasError={!!inputErro} onSubmit={handleAddRepository}>
             <input
                 value={newRepo}
                 onChange={(e) => setNewRepo(e.target.value)}
